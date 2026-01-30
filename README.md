@@ -28,18 +28,19 @@ To ensure data quality and model robustness, the system implements and evaluates
 - Linear Regression & Logistic Regression
 - Decision Trees & Random Forest
 - Support Vector Machines (SVM)
-- Artificial Neural Networks (ANN)
 
 *Model performance is assessed using standard evaluation metrics including accuracy, precision, recall, F1-score, RMSE, and confusion matrix analysis.*
 
 ## 🚀 Tech Stack
 
 ### Frontend & Interface
+
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 
 ### Data Science & Backend
+
 - **Language:** Python
 - **Libraries:** NumPy, Pandas, Scikit-learn, TensorFlow/Keras
 - **Data Processing:** Feature engineering and optimal train-test splitting techniques.
@@ -65,9 +66,7 @@ Follow these steps to set up the project locally.
 
 3. **Set up Environment Variables Create a .env file in the root directory. You can use the included .env.example as a reference:**
 
-    Code snippet
-
-    NEXT_PUBLIC_API_URL="For security purposes, the API key is not included in the source code. To run this project, please create a .env file and add your own API key."
+    NEXT_PUBLIC_API_URL=
 
 4. **Run the Development Server**
 
@@ -75,6 +74,7 @@ Follow these steps to set up the project locally.
     Open  http://localhost:9002 
 
 **📂 Project Structure**
+
 /src/app: Application routes and pages (Next.js App Router).
 
 /src/components: Reusable UI components.
@@ -84,9 +84,9 @@ Follow these steps to set up the project locally.
 /public: Static assets (images, fonts).
 
 **🎯 Target Audience**
+
 This system is highly applicable to schools, universities, online learning platforms, and government education departments, contributing toward smarter, more personalized, and outcome-driven education systems.
 
 **🤝 Contributing**
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 Developed by Romy Thomas
